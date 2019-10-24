@@ -34,6 +34,7 @@ net.ipv4.tcp_max_tw_buckets = 5000
 修改完后执行以下命令使其生效:
 sysctl -p
 
-![images](https://github.com/si1ent-le/code-study/blob/master/syctl.jpg)
 ```
+![images](https://github.com/si1ent-le/code-study/blob/master/syctl.jpg)
+
 
