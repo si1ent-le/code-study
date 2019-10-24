@@ -7,7 +7,8 @@ netstat -an | grep TIME_WAIT | wc -l  # 统计TIME_WAIT条数
 ```
 ## Linux应急流量检测工具
 ```
-iftop:http://www.ex-parrot.com/~pdw/iftop/
+iftop:
+http://www.ex-parrot.com/~pdw/iftop/
 ```
 ## 防火墙封堵指定端口请求
 ```bash
