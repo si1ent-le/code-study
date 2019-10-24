@@ -12,7 +12,7 @@ http://www.ex-parrot.com/~pdw/iftop/
 ```
 ## 防火墙封堵指定端口请求
 ```bash
-iptables -I INPUT -p tcp --dport 80 -j DROP # 以80端口为示例进行封堵，具体端口号需要通过以上工具iftop获取哪个流量最大来进行封堵。
+iptables -I INPUT -p tcp --dport 80 -j DROP # 以80端口为示例进行封堵，具体端口号需要通过以上工具iftop获取哪个对应端口流量最大来进行封堵。
 ```
 ## Linux修改内核进行防护CC或DDOS攻击
 Centos修改文件:
@@ -32,7 +32,7 @@ net.ipv4.tcp_tw_recycle = 1
 net.ipv4.tcp_max_syn_backlog = 8192
 * 最大TIME_WAIT保持数，超过将全部清除
 net.ipv4.tcp_max_tw_buckets = 5000
-修改完后执行以下命令使其生效:
+* 修改完后执行以下命令使其生效:
 sysctl -p
 
 ```
