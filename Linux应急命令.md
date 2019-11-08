@@ -42,4 +42,4 @@ sysctl -p
 ```bash
 awk '/Failed password/{h[$(NF-3)]++}END{for(pol in h) print pol,h[pol]}' secure  |sort -rnk2|head
 ````
-
+![images](https://github.com/si1ent-le/code-study/blob/master/awk_ssh_brute.png)
