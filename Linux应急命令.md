@@ -38,8 +38,8 @@ sysctl -p
 ```
 ![images](https://github.com/si1ent-le/code-study/blob/master/syctl.jpg)
 ## 统计ssh爆破失败统计IP数量
-ubuntu登陆日志：/var/log/auth.log
-centos登陆日志：/var/log/secure
+ubuntu登陆日志：/var/log/auth.log  
+centos登陆日志：/var/log/secure  
 命令
 ```bash
 awk '/Failed password/{h[$(NF-3)]++}END{for(pol in h) print pol,h[pol]}' secure  |sort -rnk2|head
