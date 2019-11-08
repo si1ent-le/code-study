@@ -42,6 +42,7 @@ ubuntu登陆日志：/var/log/auth.log
 centos登陆日志：/var/log/secure  
 命令
 ```bash
-awk '/Failed password/{h[$(NF-3)]++}END{for(pol in h) print pol,h[pol]}' secure  |sort -rnk2|head
+awk '/Failed password/{h[$(NF-3)]++}END{for(pol in h) print pol,h[pol]}' secure  |sort -rnk2|head #只显示10行
+awk '/Failed password/{h[$(NF-3)]++}END{for(pol in h) print pol,h[pol]}' secure  |sort -rnk2 # 显示
 ````
 ![images](https://github.com/si1ent-le/code-study/blob/master/awk_ssh_brute.png)
