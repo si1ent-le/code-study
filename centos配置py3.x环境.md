@@ -1,7 +1,7 @@
-Author:si1ent
-Date:12-11
+Author:si1ent  
+Date:12-11  
 ** 前言：**
-系统默认安装一般是python2.7版本，但有些工具就需要py3.x版本以上；
+系统默认安装一般是python2.7版本，但有些工具就需要py3.x版本以上；  
 ** 获取资源：**
 ```python
 wget https://www.python.org/ftp/python/3.6.3/Python-3.6.3.tgz 
@@ -33,3 +33,4 @@ ln -s /usr/local/python3/bin/python3 /usr/bin/python3
 ```python
 ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3
 ```
+
