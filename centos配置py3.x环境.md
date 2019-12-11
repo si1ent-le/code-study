@@ -29,7 +29,7 @@ __配置python3环境变量:__
 ln -s /usr/local/python3/bin/python3 /usr/bin/python3 
 （备注：python3可以更换简单字符，例如：py3即可调用python3，如下图所示）
 ```
-
+![alt](https://github.com/si1ent-le/code-study/blob/master/py3.png)
 ```python
 ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3
 ```
