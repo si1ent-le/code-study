@@ -1,7 +1,9 @@
 Author:si1ent  
 Date:12-11  
 __前言:__  
+
 系统默认安装一般是python2.7版本，但有些工具就需要py3.x版本以上；  
+
 __获取资源:__  
 ```python
 wget https://www.python.org/ftp/python/3.6.3/Python-3.6.3.tgz 
